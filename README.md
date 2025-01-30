@@ -46,7 +46,7 @@ git clone https://github.com/KaliniV/TO-DO-LIST
 cd back/api_rest_to_do_list
 ```
 
-3. Configure o banco de dados no arquivo application.properties ou application.yml:
+3. Configure o banco de dados com o docker-compose e inicie o PostgreSQL:
 
 ```bash
 
