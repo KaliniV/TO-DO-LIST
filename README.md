@@ -4,6 +4,8 @@
 
 </div>
 
+![Video exibindo as funcionalidades](./gif/video-display.gif)
+
 ## Visão Geral
 
 Esta é uma aplicação full stack de To-Do List, composta por um backend desenvolvido em Java com Spring Boot e um frontend construído com Next.js. A aplicação permite que os usuários gerenciem suas tarefas de forma eficiente.
@@ -41,15 +43,14 @@ git clone https://github.com/KaliniV/TO-DO-LIST
 2.  Navegue até a pasta do backend:
 
 ```bash
-cd to-do-list/back/api_rest_to_do_list
+cd back/api_rest_to_do_list
 ```
 
 3. Configure o banco de dados no arquivo application.properties ou application.yml:
 
 ```bash
 
-spring.datasource.username=root
-spring.datasource.password=senha
+docker-compose up --build
 ```
 
 4. Compile e execute o projeto:
@@ -69,7 +70,7 @@ ou, se estiver usando Gradle:
 1. Navegue até a pasta do frontend:
 
 ```bash
-cd to-do-list/front/to-do-list
+cd front/to-do-list
 ```
 
 2. Instale as dependências:
