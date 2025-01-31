@@ -26,6 +26,8 @@
   align-items: baseline;
 }
 .title {
+  word-break: break-all;
+
   color: #5ba4a4;
   font-weight: 700;
   font-size: 16px;
@@ -46,6 +48,7 @@
   font-size: 14px;
   font-weight: 700;
   color: #7b8e8e;
+  word-break: break-all;
 }
 .label_container {
   display: flex;

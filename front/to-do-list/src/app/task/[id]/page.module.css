@@ -30,6 +30,7 @@
   font-size: 16px;
   font-weight: 300;
   color: #000000;
+  word-break: break-all;
 }
 
 .status {
